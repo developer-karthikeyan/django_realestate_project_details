@@ -33,7 +33,7 @@
     <img src='read_me_images/registration/reg3.png'/>
     <br>
 
-* Else, User will get validation errors based on the given parameters.
+* Else, User will get **validation errors** based on the given parameters.
     <img src='read_me_images/registration/reg_v.png'/>
     <br>
 ---
@@ -48,7 +48,7 @@
     <img src='read_me_images/login/login3.png'/>
     <br>
 
-* Else, User will get validation errors based on the given parameters.
+* Else, User will get **validation errors** based on the given parameters.
     <img src='read_me_images/login/login_v.png'/>
 ---
 ### Home page:
@@ -82,11 +82,13 @@
 
 * If User made successful inquiry, then he/she will recieve Confirmation mail from **KM-Home team**.
     <img src='read_me_images/properties/5.png'/>
+    <br>    
     <img src='read_me_images/properties/6.png'/>
     <br>
 
 * Similarly, respective realtor for that property will also get notification mail from **KM-Home team**.
     <img src='read_me_images/properties/7.png'/>
+    <br>    
     <img src='read_me_images/properties/8.png'/>
     <br>
 
@@ -114,6 +116,7 @@
 
 * For every successfully post, Requester will get notification mail from KM-Homes Teams. 
     <img src='read_me_images/contact_us/3.jpg'/>
+    <br>    
     <img src='read_me_images/contact_us/4.png'/>
     <br>
 
@@ -121,12 +124,15 @@
     <img src='read_me_images/contact_us/5.png'/>
     <br>
 
-* Else, Requester will get validation errors based on the given parameters.
+* Else, Requester will get **validation errors** based on the given parameters.
     <img src='read_me_images/contact_us/fail.png'/>
 ---
 ### Dashboard page:
 * It helps to keep track of User's inquiry list.
+* Newly registered User won't have inquiry list.
     <img src='read_me_images/dashboard/1.png'/>
+    <br>    
+* Existing User's inquiries are listed in Dashboard.    
     <img src='read_me_images/dashboard/2.png'/>
 ---
 ### Profile page:
@@ -138,11 +144,11 @@
     <img src='read_me_images/profile/2.png'/>
     <br>
 
-* Else, User will get validation errors based on the given parameters.
+* Else, User will get **validation errors** based on the given parameters.
     <img src='read_me_images/profile/3.png'/>
 ---
 ### Logout page:
-* It helps User to logout from his/her account & get navigated to Home page with **Success message**.
+* It helps User to logout from his/her account & get navigated to **Home page** with **Success message**.
     <img src='read_me_images/logout/1.png'/>
     <img src='read_me_images/logout/2.png'/>
 ---
@@ -165,6 +171,7 @@
 * It will send **"Reset Password"** link to registered email address.
     <img src='read_me_images/reset_pwd/3.png'/>
     <img src='read_me_images/reset_pwd/4.png'/>
+    <br>
     <img src='read_me_images/reset_pwd/5.png'/>
     <br>
 
@@ -172,7 +179,7 @@
     <img src='read_me_images/reset_pwd/6.png'/>
     <br>
 
-* Once password reset was done. Finally, User get **success notification**.
+* Once password reset was done. Finally, User get **success notification**. Now, User can able to login with his/her new passsword.
     <img src='read_me_images/reset_pwd/7.png'/>
 ---
 ### Change password:
@@ -181,7 +188,7 @@
     <img src='read_me_images/change_pwd/1.png'/>
     <br>
 
-* User should enter valid **Old** & **New** password.
+* User should enter valid **"Old"** & **"New"** password.
     <img src='read_me_images/change_pwd/2.png'/>
     <br>
 
@@ -199,7 +206,7 @@
     * https://km-homes-djangoapp.herokuapp.com/accounts/profile/
     <br>
 
-* Here, I have mentioned only **Profile page** access scenario. For example, after logout User tries to access his/her Profile page.
+* Here, I have mentioned only **Profile page** access scenario. For example, after successful logout User trying to access his/her Profile page.
     <img src='read_me_images/unauth_protection/1.png'/>
     <br>
 * User will get automatically redirected to **"Login Page"**.
@@ -218,7 +225,7 @@
     <img src='read_me_images/admin_panel/listing.png'/>    
     <img src='read_me_images/admin_panel/listing2.png'/>
     <br>
-* Similarly, he has full access to **add/remove Realtor** from **Realtors** tab.
+* Similarly, Administrator has full access to **add/remove Realtor** from **Realtors** tab.
     <img src='read_me_images/admin_panel/realtor.png'/>    
     <img src='read_me_images/admin_panel/realtor2.png'/>
 ---
@@ -226,8 +233,8 @@
 ### Future Updates:
 
 * Gmail or Facebook account based **User Signed Up**.
-* Yet to add **Google maps** feature to show exact location of Property.
-* **Machine Learning** feature in Property search.
+* **Google maps** feature to show exact location of Property.
+* **Machine Learning** feature for Property search.
 * **Data Analytics** feature to generate reports for Property sale.
 ---
 
